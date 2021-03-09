@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>World Boxing::Contact Us</title> <!-- SEO keyword in title-->
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        h1 {
+        top: 0px;
+    }
+    </style>
+</head>
+
+<body>
+
+<div class="header">
+    <img src="logo.jpg" alt="Boxing World Logo">
+    <a href="index.html" ><h1> Boxing World </h1></a>
+    <div class="header-right navbar">
+        <a class="active" href="index.html">Home</a>
+        <a href="bios.html">Bios</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+
+<div class="flex-container">
+    <div><img src="shadow1.jpg"></div>
+    <div><img src="boxing.png"></div>
+    <div><img src="shadow.jpg"></div>
+
+</div>
+
+<main>
+
+    <div id="wrapper">
+
+        <h2>Contact Boxing World</h2>
+    <div id="contactContainer">
+        <p>Required fields are marked with an asterisk*</p>
+    <form method="post" action="https://webdevbasics.net/scripts/yoga.php">
+        <div class="row">
+            <div class="col-25">
+        <label for="MyName">*Name:</label>
+            </div>
+            <div class="col-75">
+        <input type="text" name="MyName" id="MyName" required="required" placeholder="Enter your name...">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+        <label for="myEmail">*E-mail:</label>
+            </div>
+            <div class="col-75">
+        <input type="email" name="myEmail" id="myEmail" required="required" placeholder="Enter your e-mail address...">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+        <label for="myReferral">How did you hear about us?:</label>
+            </div>
+            <div class="col-75">
+        <input type="text" name="myReferral" id="myReferral" list="myReferrals">
+        <datalist
+                id="myReferrals">
+            <option>Google</option>
+            <option>Bing</option>
+            <option>Facebook</option>
+            <option>Friend</option>
+            <option>Radio Ad</option>
+        </datalist>
+    </div>
+    </div>
+
+        <div class="row">
+            <div class="col-25">
+        <label for="myComments">*Comments:</label>
+            </div>
+            <div class="col-75">
+        <textarea
+                name="myComments" id="myComments"
+                placeholder="Enter your comments..."
+                style="height:200px"
+                required="required">
+        </textarea>
+            </div>
+        </div>
+
+        <div class="row">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    </div>
+    </div>
+</main>
+
+<footer>
+    Copyright &copy; 2020 Path of Light Yoga Studio<br>
+        <a href="mailto:jose@matamoros.com">jose@matamoros.com</a>
+</footer>
+
+</body>
+
+</html>
